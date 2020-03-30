@@ -1,0 +1,165 @@
+{
+	"id": "6e4d71ec-26ec-d5a7-adf4-2a214e4ddf75",
+	"name": "MedicalClaim",
+	"description": "",
+	"order": [
+		"4e80deb5-13c9-c2b1-bf9b-c98bcfc2fe93",
+		"e3d90469-54f2-7978-24be-dbb8a1221750",
+		"e71042c0-8c97-a62c-698a-56884019ea15",
+		"5a9aadff-7d13-6b1e-eb20-fe38d550620c",
+		"0023856a-bc67-3347-f7c6-7ca114c03521"
+	],
+	"folders": [],
+	"timestamp": 1497603599609,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "0023856a-bc67-3347-f7c6-7ca114c03521",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/InsuranceMedicalClaim/getclaimById",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6e4d71ec-26ec-d5a7-adf4-2a214e4ddf75",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/InsuranceMedicalClaim/getclaimById",
+			"description": "get Claim By id ",
+			"descriptionFormat": "html",
+			"time": 1497604934318,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n        \"claimId\": 2\n        \n    }"
+		},
+		{
+			"id": "4e80deb5-13c9-c2b1-bf9b-c98bcfc2fe93",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/InsuranceMedicalClaim/addclaim",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6e4d71ec-26ec-d5a7-adf4-2a214e4ddf75",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/InsuranceMedicalClaim/addclaim",
+			"description": "Save Medical Claim",
+			"descriptionFormat": "html",
+			"time": 1497603599608,
+			"version": 2,
+			"responses": [],
+			"tests": "{\"id\":1, \"BusinessFaxNo\":\"1\", \"CoDoctorVisitDate\":\"111\", \"businessAddress\":\"dfgdfg\", \"businessPhoneNo\":\"11\", \"claimantAge\":1, \"claimantName\":\"dsfds\", \"claimantOccupation\":\"dsfsd\", \"claimantRelationToPatient\":\"dfss\", \"claimantSex\":\"male\", \"dateOfClaim\":\"2012-12-12 00:00:00\", \"dateOfFirstAccidentTreatment\":\"dsfds\", \"dateOfFirstIllenessTreatement\":\"dsf\", \"dateOfSymptomsStarted\":\"dsfds\", \"dateTimeOfAccident\":\"dsfds\", \"doctorContactAddress\":\"dsf\", \"doctorNmcNo\":\"dsf\", \"doctorPhoneNo\":\"dsfds\", \"doctorQualification\":\"dsf\", \"nameOfAttendingDoctor\":\"dsfs\", \"nameoFInsured\":\"dfs\", \"natureAndCauseOfInjuries\":\"dsfds\", \"patientAge\":\"dsfsdsf\", \"patientName\":\"dsf\", \"patientResAddress\":\"dsf\", \"patientSex\":\"dsf\", \"patientphoneNo\":\"dsf\", \"periodOfInsurance\":12, \"policyNo\":12, \"symptomOfIllness\":\"dsf\", \"totalClaimedAmount\":\"dsf\"}",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"id\":\"\", \"BusinessFaxNo\":\"\", \"CoDoctorVisitDate\":\"\", \"businessAddress\":\"\", \"businessPhoneNo\":\"\", \"claimantAge\":1, \"claimantName\":\"\", \"claimantOccupation\":\"\", \"claimantRelationToPatient\":\"\", \"claimantSex\":\"\", \"dateOfClaim\":\"\", \"dateOfFirstAccidentTreatment\":\"\", \"dateOfFirstIllenessTreatement\":\"\", \"dateOfSymptomsStarted\":\"\", \"dateTimeOfAccident\":\"\", \"doctorContactAddress\":\"\", \"doctorNmcNo\":\"\", \"doctorPhoneNo\":\"\", \"doctorQualification\":\"\", \"nameOfAttendingDoctor\":\"\", \"nameOfInsured\":\"\", \"natureAndCauseOfInjuries\":\"\", \"patientAge\":\"\", \"patientName\":\"\", \"patientResAddress\":\"\", \"patientSex\":\"\", \"patientphoneNo\":\"\", \"periodOfInsurance\":0, \"policyNo\":0, \"symptomOfIllness\":\"\", \"totalClaimedAmount\":\"\"}"
+		},
+		{
+			"id": "5a9aadff-7d13-6b1e-eb20-fe38d550620c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/InsuranceMedicalClaim/deleteclaim",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6e4d71ec-26ec-d5a7-adf4-2a214e4ddf75",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/InsuranceMedicalClaim/deleteclaim",
+			"description": "delete claim based on claim id ",
+			"descriptionFormat": "html",
+			"time": 1497604851470,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n        \"claimId\": 1\n        \n    }"
+		},
+		{
+			"id": "e3d90469-54f2-7978-24be-dbb8a1221750",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/InsuranceMedicalClaim/updateclaim",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6e4d71ec-26ec-d5a7-adf4-2a214e4ddf75",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/InsuranceMedicalClaim/updateclaim",
+			"description": "update medical claim ",
+			"descriptionFormat": "html",
+			"time": 1497604349913,
+			"version": 2,
+			"responses": [],
+			"tests": "{\n        \"id\": 1,\n        \"nameOfInsured\": \"\",\n        \"policyNo\": 0,\n        \"periodOfInsurance\": 0,\n        \"businessAddress\": \"\",\n        \"businessPhoneNo\": \"\",\n        \"claimantName\": \"\",\n        \"claimantOccupation\": \"\",\n        \"claimantAge\": 1,\n        \"claimantSex\": \"\",\n        \"patientName\": \"\",\n        \"patientSex\": \"\",\n        \"patientAge\": \"\",\n        \"claimantRelationToPatient\": \"\",\n        \"patientResAddress\": \"\",\n        \"patientphoneNo\": \"\",\n        \"dateOfSymptomsStarted\": \"\",\n        \"dateOfFirstIllenessTreatement\": \"\",\n        \"dateTimeOfAccident\": \"\",\n        \"dateOfFirstAccidentTreatment\": \"\",\n        \"symptomOfIllness\": \"\",\n        \"natureAndCauseOfInjuries\": \"\",\n        \"nameOfAttendingDoctor\": \"\",\n        \"doctorQualification\": \"\",\n        \"doctorNmcNo\": \"\",\n        \"doctorContactAddress\": \"pokhara\",\n        \"doctorPhoneNo\": \"\",\n        \"totalClaimedAmount\": \"\",\n        \"dateOfClaim\": null,\n        \"coDoctorVisitDate\": null,\n        \"businessFaxNo\": null\n    }",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n        \"id\": 1,\n        \"nameOfInsured\": \"\",\n        \"policyNo\": 0,\n        \"periodOfInsurance\": 0,\n        \"businessAddress\": \"\",\n        \"businessPhoneNo\": \"\",\n        \"claimantName\": \"\",\n        \"claimantOccupation\": \"\",\n        \"claimantAge\": 1,\n        \"claimantSex\": \"\",\n        \"patientName\": \"\",\n        \"patientSex\": \"\",\n        \"patientAge\": \"\",\n        \"claimantRelationToPatient\": \"\",\n        \"patientResAddress\": \"\",\n        \"patientphoneNo\": \"\",\n        \"dateOfSymptomsStarted\": \"\",\n        \"dateOfFirstIllenessTreatement\": \"\",\n        \"dateTimeOfAccident\": \"\",\n        \"dateOfFirstAccidentTreatment\": \"\",\n        \"symptomOfIllness\": \"\",\n        \"natureAndCauseOfInjuries\": \"\",\n        \"nameOfAttendingDoctor\": \"\",\n        \"doctorQualification\": \"\",\n        \"doctorNmcNo\": \"\",\n        \"doctorContactAddress\": \"pokhara\",\n        \"doctorPhoneNo\": \"\",\n        \"totalClaimedAmount\": \"\",\n        \"dateOfClaim\": null,\n        \"coDoctorVisitDate\": null,\n        \"businessFaxNo\": null\n    }"
+		},
+		{
+			"id": "e71042c0-8c97-a62c-698a-56884019ea15",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/InsuranceMedicalClaim/getAllMedicalClaim",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "6e4d71ec-26ec-d5a7-adf4-2a214e4ddf75",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/InsuranceMedicalClaim/getAllMedicalClaim",
+			"description": "get All medical claims ",
+			"descriptionFormat": "html",
+			"time": 1497604688551,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
